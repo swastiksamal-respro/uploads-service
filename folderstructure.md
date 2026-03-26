@@ -1,0 +1,34 @@
+```
+└── 📁central-upload-system
+    └── 📁config
+        ├── domains.js
+    └── 📁controllers
+        ├── download.controller.js
+        ├── upload.controller.js
+    └── 📁db
+        ├── download_log.repository.js
+        ├── index.js
+        ├── upload.repository.js
+    └── 📁logs
+        ├── uploads.log
+    └── 📁middleware
+        ├── auth.js
+        ├── domain.js
+    └── 📁routes
+        ├── download.routes.js
+        ├── upload.routes.js
+    └── 📁services
+        ├── download.service.js
+        ├── file.service.js
+        ├── hash.service.js
+        ├── upload.service.js
+    └── 📁utils
+        ├── sanitize.js
+        ├── uuid.js
+    ├── .env
+    ├── app.js
+    ├── central-upload-system.zip
+    ├── ecosystem.config.js
+    ├── package-lock.json
+    └── package.json
+```
